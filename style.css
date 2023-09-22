@@ -29,7 +29,7 @@ a,
 
 /* DESKTOP NAV */
 nav {
-    background-color: aliceblue;
+    background-color: rgb(204, 229, 250);
     font-weight: 900;
 }
 
@@ -103,7 +103,7 @@ a:hover {
   top: 100%;
   right: 0;
   background-color: white;
-  width: fit-content;
+  width: moz-fit-content;
   max-height: 0;
   overflow: hidden;
   transition: all 0.3 ease-in-out;
@@ -158,7 +158,7 @@ section {
   height: 96vh;
   margin: 0 10rem;
   box-sizing: border-box;
-  min-height: fit-content;
+  min-height: moz-fit-content;
 }
 
 .section-container {
