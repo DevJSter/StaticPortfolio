@@ -432,6 +432,7 @@ footer {
   margin: 0 1rem;
 }
 
-footer p {
+.footer-para {
   text-align: center;
+  background-color: rgb(204, 229, 250);
 }
