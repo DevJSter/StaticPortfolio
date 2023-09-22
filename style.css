@@ -9,7 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: aliceblue;
+  /* background-color: rgb(228, 232, 236); */
 }
 
 html {
@@ -28,10 +28,14 @@ a,
 }
 
 /* DESKTOP NAV */
+nav {
+  background-color: aliceblue;
+}
 
 nav,
 .nav-links {
   display: flex;
+  font-weight: 900;
 }
 
 nav {
