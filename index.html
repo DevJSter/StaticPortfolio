@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
-    <link rel="icon" href="assets\portfolio.png">
+    <link rel="icon" href="assets\portfolio.png" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
@@ -38,8 +38,56 @@
       </div>
     </nav>
     <section id="profile">
-      <div class="section__pic-container">
-        <img src="./assets/profile-pic.png" alt="Shubham Tiwari's profile picture" />
+      <div class="section__pic-container" >
+          <!--?xml version="1.0" standalone="no"?-->
+          <svg
+            id="sw-js-blob-svg"
+            viewBox="0 0 100 100"
+            xmlns="http://www.w3.org/2000/svg"
+            version="1.1"
+          >
+            <defs>
+              <linearGradient id="sw-gradient" x1="0" x2="1" y1="1" y2="0">
+                <stop
+                  id="stop1"
+                  stop-color="rgba(93.501, 197.013, 149.677, 1)"
+                  offset="0%"
+                ></stop>
+                <stop
+                  id="stop2"
+                  stop-color="rgba(56.363, 84.061, 158.308, 1)"
+                  offset="100%"
+                ></stop>
+              </linearGradient>
+            </defs>
+            <mask id="mask1" mask-type="alpha">
+              <path
+              fill="url(#sw-gradient)"
+              d="M21,-37.2C27.3,-32.8,32.6,-27.3,37.2,-21C41.8,-14.6,45.7,-7.3,44.8,-0.5C44,6.3,38.5,12.7,34.1,19.4C29.7,26.1,26.5,33.3,21,37.6C15.5,41.9,7.8,43.5,0.1,43.3C-7.6,43.1,-15.2,41.3,-22.1,37.8C-29,34.3,-35.3,29.2,-39,22.6C-42.6,16,-43.6,8,-43.8,-0.2C-44.1,-8.3,-43.7,-16.6,-39.7,-22.6C-35.7,-28.6,-28.2,-32.3,-21,-36.2C-13.8,-40.2,-6.9,-44.4,0.2,-44.8C7.4,-45.2,14.7,-41.7,21,-37.2Z"
+              width="100%"
+              height="100%"
+              transform="translate(50 50)"
+              stroke-width="0"
+              style="transition: all 0.3s ease 0s"
+              stroke="url(#sw-gradient)"
+            >
+            </path>
+            </mask>
+            <g mask="url(#mask1)">
+            <path
+              fill="url(#sw-gradient)"
+              d="M21,-37.2C27.3,-32.8,32.6,-27.3,37.2,-21C41.8,-14.6,45.7,-7.3,44.8,-0.5C44,6.3,38.5,12.7,34.1,19.4C29.7,26.1,26.5,33.3,21,37.6C15.5,41.9,7.8,43.5,0.1,43.3C-7.6,43.1,-15.2,41.3,-22.1,37.8C-29,34.3,-35.3,29.2,-39,22.6C-42.6,16,-43.6,8,-43.8,-0.2C-44.1,-8.3,-43.7,-16.6,-39.7,-22.6C-35.7,-28.6,-28.2,-32.3,-21,-36.2C-13.8,-40.2,-6.9,-44.4,0.2,-44.8C7.4,-45.2,14.7,-41.7,21,-37.2Z"
+              width="100%"
+              height="100%"
+              transform="translate(50 50)"
+              stroke-width="0"
+              style="transition: all 0.3s ease 0s"
+              stroke="url(#sw-gradient)"
+            >
+            </path>
+            <image class="image1" href="profile.jpg"  x="0" y="10" alt="Shubham Tiwari's profile picture"/>
+          </g>
+          </svg>
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
@@ -197,7 +245,6 @@
                   <p>Basic</p>
                 </div>
               </article>
-              
             </div>
           </div>
           <div class="details-container">
@@ -400,8 +447,8 @@
         </div>
       </nav>
       <nav class="footer-para">
-      <p>Copyright &#169; 2023 Shubham Tiwari.</p>
-      <p>All Rights Reserved.</p>
+        <p>Copyright &#169; 2023 Shubham Tiwari.</p>
+        <p>All Rights Reserved.</p>
       </nav>
     </footer>
     <script src="script.js"></script>

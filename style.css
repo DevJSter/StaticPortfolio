@@ -173,6 +173,11 @@ section {
   gap: 5rem;
   height: 80vh;
 }
+.image1 {
+  border-radius: 2rem;
+  width: 100%;
+  height: 100%;
+}
 
 .section__pic-container {
   display: flex;
